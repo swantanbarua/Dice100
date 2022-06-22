@@ -18,7 +18,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="nuG-Vv-SX6">
                                 <rect key="frame" x="0.0" y="44" width="420" height="848"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Co-fl-EkY">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Co-fl-EkY" userLabel="Emojis">
                                         <rect key="frame" x="0.0" y="0.0" width="420" height="168.66666666666666"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="140" translatesAutoresizingMaskIntoConstraints="NO" id="zcM-I3-HLo">
@@ -45,7 +45,7 @@
                                             <constraint firstItem="zcM-I3-HLo" firstAttribute="centerX" secondItem="4Co-fl-EkY" secondAttribute="centerX" id="sVB-3V-Wc9"/>
                                         </constraints>
                                     </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tJQ-sc-p7W">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tJQ-sc-p7W" userLabel="Players">
                                         <rect key="frame" x="0.0" y="169.66666666666666" width="420" height="168.99999999999997"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="100" translatesAutoresizingMaskIntoConstraints="NO" id="Elf-YR-EAN">
@@ -71,7 +71,7 @@
                                             <constraint firstItem="Elf-YR-EAN" firstAttribute="centerY" secondItem="tJQ-sc-p7W" secondAttribute="centerY" id="ub0-qw-pjQ"/>
                                         </constraints>
                                     </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EcB-1D-pNj">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EcB-1D-pNj" userLabel="Scores">
                                         <rect key="frame" x="0.0" y="339.66666666666669" width="420" height="168.66666666666669"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="175" translatesAutoresizingMaskIntoConstraints="NO" id="71V-ts-Rob">
@@ -97,7 +97,7 @@
                                             <constraint firstItem="71V-ts-Rob" firstAttribute="centerY" secondItem="EcB-1D-pNj" secondAttribute="centerY" id="txy-04-lx7"/>
                                         </constraints>
                                     </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yht-cj-IBM">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yht-cj-IBM" userLabel="Dice Values">
                                         <rect key="frame" x="0.0" y="509.33333333333337" width="420" height="169"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="140" translatesAutoresizingMaskIntoConstraints="NO" id="lQY-PN-Lqj">
@@ -124,7 +124,7 @@
                                             <constraint firstItem="lQY-PN-Lqj" firstAttribute="centerX" secondItem="Yht-cj-IBM" secondAttribute="centerX" id="tmF-3Q-7gW"/>
                                         </constraints>
                                     </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wxm-oP-7jm">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wxm-oP-7jm" userLabel="Roll Button">
                                         <rect key="frame" x="0.0" y="679.33333333333337" width="420" height="168.66666666666663"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="wOg-ik-ymQ">
@@ -163,7 +163,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="140" y="94"/>
+            <point key="canvasLocation" x="55" y="121"/>
         </scene>
     </scenes>
     <resources>
