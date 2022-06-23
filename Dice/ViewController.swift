@@ -37,6 +37,8 @@ class ViewController: UIViewController {
             player1Score.text = String(player1Points)
             player1Status.image = UIImage(named: "Off")
             player2Status.image = UIImage(named: "On")
+            diceImageView1.layer.opacity = 0.2
+            diceImageView2.layer.opacity = 1.0
         }
         
         else{
@@ -46,6 +48,8 @@ class ViewController: UIViewController {
             player2Score.text = String(player2Points)
             player1Status.image = UIImage(named: "On")
             player2Status.image = UIImage(named: "Off")
+            diceImageView1.layer.opacity = 1.0
+            diceImageView2.layer.opacity = 0.2
         }
         
         flag = !flag
