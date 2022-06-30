@@ -201,16 +201,22 @@
                                         <rect key="frame" x="0.0" y="276.33333333333337" width="428" height="275.33333333333337"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Player" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t7U-zs-3Gq">
-                                                <rect key="frame" x="124.66666666666669" y="102" width="179" height="71.666666666666686"/>
+                                                <rect key="frame" x="52" y="49.333333333333371" width="324" height="177"/>
                                                 <color key="backgroundColor" red="0.55904483800000004" green="0.1616097987" blue="0.14507460589999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="324" id="WPR-VM-ow8"/>
+                                                    <constraint firstAttribute="height" constant="177" id="tWj-Es-1ik"/>
+                                                </constraints>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="60"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstItem="t7U-zs-3Gq" firstAttribute="centerX" secondItem="OcN-El-q8j" secondAttribute="centerX" id="W1d-ls-P7r"/>
-                                            <constraint firstItem="t7U-zs-3Gq" firstAttribute="centerY" secondItem="OcN-El-q8j" secondAttribute="centerY" id="cCw-wt-kfQ"/>
+                                            <constraint firstItem="t7U-zs-3Gq" firstAttribute="centerY" secondItem="OcN-El-q8j" secondAttribute="centerY" id="4ht-44-prR"/>
+                                            <constraint firstItem="t7U-zs-3Gq" firstAttribute="centerX" secondItem="OcN-El-q8j" secondAttribute="centerX" id="UrX-L5-OL8"/>
+                                            <constraint firstItem="t7U-zs-3Gq" firstAttribute="centerY" secondItem="OcN-El-q8j" secondAttribute="centerY" id="jho-RK-2z8"/>
+                                            <constraint firstItem="t7U-zs-3Gq" firstAttribute="centerX" secondItem="OcN-El-q8j" secondAttribute="centerX" id="t5t-6J-i53"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TbX-Cq-MIk" userLabel="Play Again">
@@ -254,7 +260,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xx7-Ku-xm8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-890" y="52"/>
+            <point key="canvasLocation" x="-890.18691588785043" y="51.835853131749467"/>
         </scene>
     </scenes>
     <resources>
