@@ -18,6 +18,7 @@ class DiceGameController: UIViewController {
     @IBOutlet weak var diceImageView1: UIImageView!
     @IBOutlet weak var diceImageView2: UIImageView!
     
+    var winner: String = ""
     var flag = false
     var player1Points: Int = 0
     var player2Points: Int = 0
@@ -31,6 +32,10 @@ class DiceGameController: UIViewController {
     @IBAction func rollButtonPressed(_ sender: UIButton) {
         
         if !flag{
+            if player1Points >= 100{
+                winner = "Player 1"
+                performSegue(withIdentifier: "goToResult", sender: self)
+            }
             let score: Int = Int.random(in: 0...5)
             diceImageView1.image = UIImage(named: diceImageValues[score])
             player1Points += (score + 1)
@@ -42,6 +47,10 @@ class DiceGameController: UIViewController {
         }
         
         else{
+            if player2Points >= 100{
+                winner = "Player 2"
+                performSegue(withIdentifier: "goToResult", sender: self)
+            }
             let score: Int = Int.random(in: 0...5)
             diceImageView2.image = UIImage(named: diceImageValues[score])
             player2Points += (score + 1)
@@ -53,5 +62,12 @@ class DiceGameController: UIViewController {
         }
         
         flag = !flag
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "goToResult"{
+            let destinationVC = segue.destination as! WinnerController
+            destinationVC.winner = winner
+        }
     }
 }

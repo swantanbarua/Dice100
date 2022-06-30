@@ -9,10 +9,15 @@ import UIKit
 
 class WinnerController: UIViewController {
 
+    var winner: String?
+    
+    @IBOutlet weak var winnerName: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        winnerName.text = winner
     }
     
 
@@ -25,5 +30,9 @@ class WinnerController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
+    
+    @IBAction func playAgain(_ sender: UIButton) {
+        dismiss(animated: true, completion: nil)
+    }
+    
 }
