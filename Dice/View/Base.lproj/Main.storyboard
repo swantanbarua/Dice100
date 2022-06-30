@@ -174,7 +174,7 @@
         <!--Winner Controller-->
         <scene sceneID="VeF-r2-Z2e">
             <objects>
-                <viewController id="D4e-r8-HuM" customClass="WinnerController" sceneMemberID="viewController">
+                <viewController id="D4e-r8-HuM" customClass="WinnerController" customModule="Dice" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8Fv-Fd-RtR">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="872"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
