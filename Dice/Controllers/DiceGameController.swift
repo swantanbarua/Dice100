@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class DiceGameController: UIViewController {
 
     @IBOutlet weak var player1Status: UIImageView!
     @IBOutlet weak var player2Status: UIImageView!

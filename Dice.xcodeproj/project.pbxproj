@@ -7,19 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CBB80006286D3FB3001A977F /* WinnerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB80005286D3FB3001A977F /* WinnerController.swift */; };
 		CBC4641E286314B800CBEDDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC4641D286314B800CBEDDF /* AppDelegate.swift */; };
 		CBC46420286314B800CBEDDF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC4641F286314B800CBEDDF /* SceneDelegate.swift */; };
-		CBC46422286314B800CBEDDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC46421286314B800CBEDDF /* ViewController.swift */; };
+		CBC46422286314B800CBEDDF /* DiceGameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC46421286314B800CBEDDF /* DiceGameController.swift */; };
 		CBC46425286314B800CBEDDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBC46423286314B800CBEDDF /* Main.storyboard */; };
 		CBC46427286314B900CBEDDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBC46426286314B900CBEDDF /* Assets.xcassets */; };
 		CBC4642A286314B900CBEDDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBC46428286314B900CBEDDF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CBB80005286D3FB3001A977F /* WinnerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinnerController.swift; sourceTree = "<group>"; };
 		CBC4641A286314B800CBEDDF /* Dice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBC4641D286314B800CBEDDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CBC4641F286314B800CBEDDF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CBC46421286314B800CBEDDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CBC46421286314B800CBEDDF /* DiceGameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceGameController.swift; sourceTree = "<group>"; };
 		CBC46424286314B800CBEDDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CBC46426286314B900CBEDDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBC46429286314B900CBEDDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -37,6 +39,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CBB80004286D3F83001A977F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CBC46421286314B800CBEDDF /* DiceGameController.swift */,
+				CBB80005286D3FB3001A977F /* WinnerController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CBB80007286D3FE0001A977F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CBC46423286314B800CBEDDF /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CBB80008286D4001001A977F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		CBC46411286314B800CBEDDF = {
 			isa = PBXGroup;
 			children = (
@@ -58,8 +84,9 @@
 			children = (
 				CBC4641D286314B800CBEDDF /* AppDelegate.swift */,
 				CBC4641F286314B800CBEDDF /* SceneDelegate.swift */,
-				CBC46421286314B800CBEDDF /* ViewController.swift */,
-				CBC46423286314B800CBEDDF /* Main.storyboard */,
+				CBB80008286D4001001A977F /* Model */,
+				CBB80007286D3FE0001A977F /* View */,
+				CBB80004286D3F83001A977F /* Controllers */,
 				CBC46426286314B900CBEDDF /* Assets.xcassets */,
 				CBC46428286314B900CBEDDF /* LaunchScreen.storyboard */,
 				CBC4642B286314B900CBEDDF /* Info.plist */,
@@ -138,7 +165,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBC46422286314B800CBEDDF /* ViewController.swift in Sources */,
+				CBB80006286D3FB3001A977F /* WinnerController.swift in Sources */,
+				CBC46422286314B800CBEDDF /* DiceGameController.swift in Sources */,
 				CBC4641E286314B800CBEDDF /* AppDelegate.swift in Sources */,
 				CBC46420286314B800CBEDDF /* SceneDelegate.swift in Sources */,
 			);
