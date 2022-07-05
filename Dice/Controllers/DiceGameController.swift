@@ -29,6 +29,22 @@ class DiceGameController: UIViewController {
         super.viewDidLoad()
     }
     
+    override func viewWillAppear(_ animated: Bool){
+        
+        super.viewWillAppear(animated)
+        player1Status.image = UIImage(named: "On")
+        player2Status.image = UIImage(named: "Off")
+        player1Points = 0
+        player2Points = 0
+        flag = false
+        player1Score.text = String(player1Points)
+        player2Score.text = String(player2Points)
+        diceImageView1.image = UIImage(named: diceImageValues[0])
+        diceImageView2.image = UIImage(named: diceImageValues[0])
+        diceImageView1.layer.opacity = 1.0
+        diceImageView2.layer.opacity = 1.0
+    }
+    
     @IBAction func rollButtonPressed(_ sender: UIButton) {
         
         if !flag{

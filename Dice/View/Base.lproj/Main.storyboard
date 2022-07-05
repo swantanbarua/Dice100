@@ -164,7 +164,7 @@
                         <outlet property="player1Status" destination="R6I-SW-HEO" id="6Ey-qN-CDi"/>
                         <outlet property="player2Score" destination="igY-ao-qFp" id="Rtw-ey-z9G"/>
                         <outlet property="player2Status" destination="CHE-TO-JFV" id="S2r-rc-5TC"/>
-                        <segue destination="D4e-r8-HuM" kind="presentation" identifier="goToResult" id="Jgn-Oi-eir"/>
+                        <segue destination="D4e-r8-HuM" kind="presentation" identifier="goToResult" modalPresentationStyle="fullScreen" id="Jgn-Oi-eir"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -176,17 +176,17 @@
             <objects>
                 <viewController id="D4e-r8-HuM" customClass="WinnerController" customModule="Dice" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8Fv-Fd-RtR">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="872"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="C8W-Zx-0Kq">
-                                <rect key="frame" x="0.0" y="44" width="428" height="828"/>
+                                <rect key="frame" x="0.0" y="44" width="428" height="848"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Hc-e8-tCp" userLabel="Winner Label">
-                                        <rect key="frame" x="0.0" y="0.0" width="428" height="275.33333333333331"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="428" height="282"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Winner" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="63P-Fl-kkg">
-                                                <rect key="frame" x="113.33333333333333" y="102" width="201.33333333333337" height="71.666666666666686"/>
+                                                <rect key="frame" x="113.33333333333333" y="105.33333333333334" width="201.33333333333337" height="71.666666666666657"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="60"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -198,10 +198,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OcN-El-q8j" userLabel="Winner Name">
-                                        <rect key="frame" x="0.0" y="276.33333333333337" width="428" height="275.33333333333337"/>
+                                        <rect key="frame" x="0.0" y="283" width="428" height="282"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Player" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t7U-zs-3Gq">
-                                                <rect key="frame" x="52" y="49.333333333333371" width="324" height="177"/>
+                                                <rect key="frame" x="52" y="52.666666666666686" width="324" height="177"/>
                                                 <color key="backgroundColor" red="0.55904483800000004" green="0.1616097987" blue="0.14507460589999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="324" id="WPR-VM-ow8"/>
@@ -220,10 +220,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TbX-Cq-MIk" userLabel="Play Again">
-                                        <rect key="frame" x="0.0" y="552.66666666666663" width="428" height="275.33333333333337"/>
+                                        <rect key="frame" x="0.0" y="566" width="428" height="282"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YLz-ra-m8Y">
-                                                <rect key="frame" x="89" y="104" width="250" height="67.666666666666686"/>
+                                                <rect key="frame" x="89" y="107.33333333333337" width="250" height="67.666666666666686"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="Play Again">
                                                     <backgroundConfiguration key="background">
