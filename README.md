@@ -8,8 +8,8 @@
 <img src="Dice/Images/ResultScreen_Potrait.png" width="250"> &nbsp; <img src="Dice/Images/ResultScreen_Landscape.png" width="500">
 
 # Techstack
-Swift, Storyboard and UIKit
+<a href="https://developer.apple.com/swift/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/swift/swift-original.svg" alt="swift" width="80" height="80"/> </a>  <a href="https://getuikit.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/swift/swift-original.svg" alt="swift" width="80" height="80"/> </a>
 
 # Resources
 
-Canva, Colorhunt
+<a href="https://www.canva.com" target="_blank">Canva</a> <a href="https://colorhunt.co" target="_blank">Colorhunt</a>
