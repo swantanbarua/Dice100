@@ -1,6 +1,9 @@
 # Dice100
 2-player dice game where the player who scores 100 first wins
-[Screen Recording 2022-07-06 at 1.00.15 PM.zip](https://github.com/swantanbarua/Dice100/files/9052635/Screen.Recording.2022-07-06.at.1.00.15.PM.zip)
+
+
+
+https://user-images.githubusercontent.com/85452778/177496120-61f19080-3e6d-4d16-afc5-4e56d8950156.mp4
 
 
 
