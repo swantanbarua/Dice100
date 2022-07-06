@@ -3,4 +3,4 @@
 
 # Responsive UI Snapshots
 
-https://github.com/swantanbarua/Dice100/blob/main/Dice/Images/Launchscreen.png
+![](Images/Launchscreen.png)
