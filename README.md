@@ -14,7 +14,7 @@ https://user-images.githubusercontent.com/85452778/177496120-61f19080-3e6d-4d16-
 <img src="Dice/Images/ResultScreen_Potrait.png" width="250"> &nbsp; <img src="Dice/Images/ResultScreen_Landscape.png" width="500">
 
 # Techstack
-<a href="https://developer.apple.com/swift/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/swift/swift-original.svg" alt="swift" width="80" height="80"/> </a>  <a href="https://getuikit.com" target="_blank" rel="noreferrer"> <img src="Dice/Images/uikit.svg" alt="swift" width="80" height="80"/> </a>
+<a href="https://developer.apple.com/swift/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/swift/swift-original.svg" alt="swift" width="80" height="80"/> </a>  <a href="https://getuikit.com" target="_blank" rel="noreferrer"> <img src="Dice/Images/uikit.svg" alt="uikit" width="80" height="80"/> </a>
 
 # Resources
 
