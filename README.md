@@ -3,4 +3,5 @@
 
 # Responsive UI Snapshots
 
-![](Dice/Images/Launchscreen.png)
+<img src="Dice/Images/Launchscreen.png" height="200">
+<img src="Dice/Images/MainScreen_Potrait.png" height="200"> <img src="Dice/Images/MainScreen_Landscape.png" height="200">
