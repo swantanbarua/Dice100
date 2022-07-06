@@ -3,4 +3,4 @@
 
 # Responsive UI Snapshots
 
-![](Images/Launchscreen.png)
+![](Dice/Images/Launchscreen.png)
