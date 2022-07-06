@@ -18,4 +18,4 @@ https://user-images.githubusercontent.com/85452778/177496120-61f19080-3e6d-4d16-
 
 # Resources
 
-<a href="https://www.canva.com" target="_blank">Canva</a> &nbsp;&nbsp;&nbsp;&nbsp; <a href="https://colorhunt.co" target="_blank">Colorhunt</a> &nbsp;&nbsp;&nbsp;&nbsp: <a href="https://appicon.co" target="_blank">App Icon Generator</a>
+<a href="https://www.canva.com" target="_blank">Canva</a> &nbsp;&nbsp;&nbsp;&nbsp; <a href="https://colorhunt.co" target="_blank">Colorhunt</a> &nbsp;&nbsp;&nbsp;&nbsp; <a href="https://appicon.co" target="_blank">App Icon Generator</a>
