@@ -12,4 +12,4 @@
 
 # Resources
 
-<a href="https://www.canva.com" target="_blank">Canva</a> <a href="https://colorhunt.co" target="_blank">Colorhunt</a>
+<a href="https://www.canva.com" target="_blank">Canva</a> &nbsp;&nbsp;&nbsp;&nbsp; <a href="https://colorhunt.co" target="_blank">Colorhunt</a>
