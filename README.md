@@ -3,5 +3,6 @@
 
 # Responsive UI Snapshots
 
-<img src="Dice/Images/Launchscreen.png" width="300">
-<img src="Dice/Images/MainScreen_Potrait.png" width="300"> <img src="Dice/Images/MainScreen_Landscape.png" width="500">
+<img src="Dice/Images/Launchscreen.png" width="250">
+<img src="Dice/Images/MainScreen_Potrait.png" width="250"> <img src="Dice/Images/MainScreen_Landscape.png" width="500">
+<img src="Dice/Images/ResultScreen_Potrait.png" width="250"> <img src="Dice/Images/ResultScreen_Landscape.png" width="500">
