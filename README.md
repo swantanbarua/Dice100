@@ -1,6 +1,8 @@
 # Dice100
 2-player dice game where the player who scores 100 first wins
 
+<video src="Dice/Images/Dice100.mov" controls autoplay>
+
 # Responsive UI Snapshots
 
 <img src="Dice/Images/Launchscreen.png" width="250">
